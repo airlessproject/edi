@@ -1,5 +1,7 @@
-[![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/226/15.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-edi-226)
-[![Build Status](https://travis-ci.com/OCA/edi.svg?branch=15.0)](https://travis-ci.com/OCA/edi)
+
+[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/edi&target_branch=15.0)
+[![Pre-commit Status](https://github.com/OCA/edi/actions/workflows/pre-commit.yml/badge.svg?branch=15.0)](https://github.com/OCA/edi/actions/workflows/pre-commit.yml?query=branch%3A15.0)
+[![Build Status](https://github.com/OCA/edi/actions/workflows/test.yml/badge.svg?branch=15.0)](https://github.com/OCA/edi/actions/workflows/test.yml?query=branch%3A15.0)
 [![codecov](https://codecov.io/gh/OCA/edi/branch/15.0/graph/badge.svg)](https://codecov.io/gh/OCA/edi)
 [![Translation Status](https://translation.odoo-community.org/widgets/edi-15-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/edi-15-0/?utm_source=widget)
 
@@ -25,8 +27,8 @@ addon | version | maintainers | summary
 [base_facturx](base_facturx/) | 15.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Base module for Factur-X/ZUGFeRD
 [edi_account_oca](edi_account_oca/) | 15.0.1.0.0 | [![etobella](https://github.com/etobella.png?size=30px)](https://github.com/etobella) | Define EDI Configuration for Account Moves
 [edi_exchange_template_oca](edi_exchange_template_oca/) | 15.0.1.0.0 | [![simahawk](https://github.com/simahawk.png?size=30px)](https://github.com/simahawk) | Allows definition of exchanges via templates.
-[edi_oca](edi_oca/) | 15.0.1.0.1 | [![simahawk](https://github.com/simahawk.png?size=30px)](https://github.com/simahawk) [![etobella](https://github.com/etobella.png?size=30px)](https://github.com/etobella) | Define backends, exchange types, exchange records, basic automation and views for handling EDI exchanges.
-[edi_storage_oca](edi_storage_oca/) | 15.0.1.0.0 |  | Base module to allow exchanging files via storage backend (eg: SFTP).
+[edi_oca](edi_oca/) | 15.0.1.1.0 | [![simahawk](https://github.com/simahawk.png?size=30px)](https://github.com/simahawk) [![etobella](https://github.com/etobella.png?size=30px)](https://github.com/etobella) | Define backends, exchange types, exchange records, basic automation and views for handling EDI exchanges.
+[edi_storage_oca](edi_storage_oca/) | 15.0.1.1.1 |  | Base module to allow exchanging files via storage backend (eg: SFTP).
 [edi_webservice_oca](edi_webservice_oca/) | 15.0.1.1.0 |  | Defines webservice integration from EDI Exchange records
 [webservice](webservice/) | 15.0.1.0.0 | [![etobella](https://github.com/etobella.png?size=30px)](https://github.com/etobella) | Defines webservice abstract definition to be used generally
 
@@ -38,12 +40,11 @@ addon | version | maintainers | summary
 
 This repository is licensed under [AGPL-3.0](LICENSE).
 
-However, each module can have a totally different license, as long as they adhere to OCA
+However, each module can have a totally different license, as long as they adhere to Odoo Community Association (OCA)
 policy. Consult each module's `__manifest__.py` file, which contains a `license` key
 that explains its license.
 
 ----
-
 OCA, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit
 organization whose mission is to support the collaborative development of Odoo features
 and promote its widespread use.
